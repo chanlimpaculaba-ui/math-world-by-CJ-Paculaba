@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Reviewer</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #34495e;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px #ccc;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        .example {
+            background: #eef5ff;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin-top: 10px;
+        }
+
+        .venn {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .circle {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 130px;
+            border: 3px solid #3498db;
+            border-radius: 50%;
+            margin: -10px;
+            background: #dff0ff;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mathematics Reviewer</h1>
+    <p>Mathematical Language, Expressions, Sets, and Reasoning</p>
+</header>
+
+<nav>
+    <a href="#language">Language</a>
+    <a href="#expression">Expression</a>
+    <a href="#sets">Sets</a>
+    <a href="#builder">Set Builder</a>
+    <a href="#types">Types of Sets</a>
+    <a href="#venn">Venn Diagram</a>
+    <a href="#reasoning">Reasoning</a>
+</nav>
+
+<div class="container">
+
+    <section id="language">
+        <h2>1. Mathematical Language and Symbols</h2>
+
+        <p>
+            Mathematical language uses words, numbers, and symbols
+            to communicate mathematical ideas clearly.
+        </p>
+
+        <div class="example">
+            <b>Examples:</b><br><br>
+            + = addition<br>
+            − = subtraction<br>
+            × = multiplication<br>
+            ÷ = division<br>
+            = = equal to<br>
+            ≠ = not equal to<br>
+            &lt; = less than<br>
+            &gt; = greater than<br>
+            ≤ = less than or equal to<br>
+            ≥ = greater than or equal to
+        </div>
+    </section>
+
+    <section id="expression">
+        <h2>2. Mathematical Expression</h2>
+
+        <p>
+            A mathematical expression is a combination of numbers,
+            variables, and mathematical symbols.
+        </p>
+
+        <div class="example">
+            <b>Examples:</b><br><br>
+            5 + 3<br>
+            10 − 4<br>
+            2 × 6<br>
+            x + 5<br>
+            3x + 2
+        </div>
+
+        <p>
+            Example: In <b>3x + 2</b>, 3 is the coefficient,
+            x is the variable, and 2 is the constant.
+        </p>
+    </section>
+
+    <section id="sets">
+        <h2>3. Set</h2>
+
+        <p>
+            A set is a collection of well-defined objects or elements.
+        </p>
+
+        <div class="example">
+            <b>Example:</b><br><br>
+            A = {1, 2, 3, 4, 5}
+            <br><br>
+            The numbers 1, 2, 3, 4, and 5 are the elements of set A.
+        </div>
+    </section>
+
+    <section id="builder">
+        <h2>4. Set-Builder Notation</h2>
+
+        <p>
+            Set-builder notation describes a set by stating the
+            rule or condition that its elements must follow.
+        </p>
+
+        <div class="example">
+            <b>Example:</b><br><br>
+            A = {x | x is a whole number less than 5}
+            <br><br>
+            Therefore:<br>
+            A = {0, 1, 2, 3, 4}
+        </div>
+
+        <p>
+            The symbol <b>|</b> means "such that."
+        </p>
+    </section>
+
+    <section id="types">
+        <h2>5. Different Types of Sets</h2>
+
+        <ul>
+            <li><b>Empty Set</b> – a set with no elements.</li>
+            <li><b>Singleton Set</b> – a set with only one element.</li>
+            <li><b>Finite Set</b> – a set with a specific number of elements.</li>
+            <li><b>Infinite Set</b> – a set that continues without end.</li>
+            <li><b>Equal Sets</b> – sets that contain exactly the same elements.</li>
+            <li><b>Equivalent Sets</b> – sets that have the same number of elements.</li>
+            <li><b>Subset</b> – a set whose elements are all contained in another set.</li>
+            <li><b>Universal Set</b> – the set containing all elements being considered.</li>
+        </ul>
+
+        <div class="example">
+            <b>Examples:</b><br><br>
+            Empty Set: ∅<br>
+            Singleton: {5}<br>
+            Finite: {1, 2, 3}<br>
+            Infinite: {1, 2, 3, 4, ...}
+        </div>
+    </section>
+
+    <section id="venn">
+        <h2>6. Venn Diagram</h2>
+
+        <p>
+            A Venn diagram uses circles to show relationships between sets.
+        </p>
+
+        <div class="venn">
+            <div class="circle">Set A</div>
+            <div class="circle">Set B</div>
+        </div>
+
+        <div class="example">
+            <b>Intersection:</b> The overlapping part represents
+            elements that belong to both sets.
+            <br><br>
+            <b>Union:</b> All elements found in either set or both sets.
+        </div>
+    </section>
+
+    <section id="reasoning">
+        <h2>7. Reasoning</h2>
+
+        <p>
+            Reasoning is the process of using facts, observations,
+            and logic to reach a conclusion.
+        </p>
+
+        <h3>Deductive Reasoning</h3>
+
+        <p>
+            Deductive reasoning starts with a general rule and
+            applies it to a specific situation.
+        </p>
+
+        <div class="example">
+            <b>Example:</b><br><br>
+            All humans need oxygen.<br>
+            Ana is a human.<br>
+            Therefore, Ana needs oxygen.
+        </div>
+
+        <h3>Inductive Reasoning</h3>
+
+        <p>
+            Inductive reasoning starts with specific observations
+            and uses them to form a general conclusion.
+        </p>
+
+        <div class="example">
+            <b>Example:</b><br><br>
+            The sun rose today.<br>
+            The sun rose yesterday.<br>
+            The sun has risen every day observed.<br>
+            Therefore, the sun will probably rise tomorrow.
+        </div>
+
+        <h3>Quick Difference</h3>
+
+        <table border="1" cellpadding="10" width="100%">
+            <tr>
+                <th>Deductive</th>
+                <th>Inductive</th>
+            </tr>
+            <tr>
+                <td>General → Specific</td>
+                <td>Specific → General</td>
+            </tr>
+            <tr>
+                <td>Uses rules or facts</td>
+                <td>Uses observations or patterns</td>
+            </tr>
+            <tr>
+                <td>Conclusion follows logically</td>
+                <td>Conclusion is a prediction/generalization</td>
+            </tr>
+        </table>
+    </section>
+
+</div>
+
+<footer>
+    <p>Mathematics Reviewer © 2026</p>
+</footer>
+
+</body>
+</html>
